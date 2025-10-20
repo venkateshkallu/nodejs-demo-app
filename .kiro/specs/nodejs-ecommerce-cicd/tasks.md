@@ -75,14 +75,14 @@
   - Implement server startup and port configuration tests
   - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5_
 
-- [ ] 6.2 Write frontend JavaScript tests for cart functionality
+- [x] 6.2 Write frontend JavaScript tests for cart functionality
   - Create tests for cart state management and item operations
   - Test "Add to Cart" button functionality and user interactions
   - Implement product card rendering and responsive behavior tests
   - _Requirements: 2.2, 2.5_
 
-- [ ] 7. Create project documentation and README
-- [ ] 7.1 Write comprehensive README.md file
+- [-] 7. Create project documentation and README
+- [-] 7.1 Write comprehensive README.md file
   - Document project overview, setup instructions, and CI/CD pipeline explanation
   - Include screenshots placeholders and DockerHub repository links
   - Add development and deployment instructions with code examples

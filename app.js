@@ -23,9 +23,11 @@ app.use((req, res) => {
   res.status(404).send('Page not found');
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`Kiro server running on port ${PORT}`);
-});
+// Start server only if this file is run directly (not when required for testing)
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Kiro server running on port ${PORT}`);
+  });
+}
 
 module.exports = app;
