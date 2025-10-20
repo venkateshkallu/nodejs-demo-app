@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiro — Smart Shopping Made Simple</title>
+    <meta name="description" content="Kiro - Your smart shopping destination for the best deals on electronics, laptops, and more.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Kiro — Smart Shopping Made Simple">
+    <meta property="og:description" content="Kiro - Your smart shopping destination for the best deals on electronics, laptops, and more.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Kiro — Smart Shopping Made Simple">
+    <meta property="twitter:description" content="Kiro - Your smart shopping destination for the best deals on electronics, laptops, and more.">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">Kiro</h1>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#products">Products</a>
+                    <a href="#cart" id="cart-link">Cart (<span id="cart-count">0</span>)</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Kiro</h1>
+                <p>Smart Shopping Made Simple</p>
+            </div>
+        </section>
+
+        <section class="product-showcase" id="products">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="product-grid" id="product-grid">
+                    <article class="product-card" data-product-id="1">
+                        <div class="product-image">
+                            <img src="placeholder.svg" alt="HP Laptop" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">HP Laptop</h3>
+                            <p class="product-description">High-performance laptop with Intel Core i5 processor</p>
+                            <p class="product-price">₹49,999</p>
+                            <button class="add-to-cart-btn" data-product-id="1" data-product-name="HP Laptop" data-product-price="49999">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-product-id="2">
+                        <div class="product-image">
+                            <img src="placeholder.svg" alt="Samsung Galaxy Smartphone" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Samsung Galaxy Smartphone</h3>
+                            <p class="product-description">Latest Android smartphone with 128GB storage</p>
+                            <p class="product-price">₹24,999</p>
+                            <button class="add-to-cart-btn" data-product-id="2" data-product-name="Samsung Galaxy Smartphone" data-product-price="24999">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-product-id="3">
+                        <div class="product-image">
+                            <img src="placeholder.svg" alt="Sony Wireless Headphones" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Sony Wireless Headphones</h3>
+                            <p class="product-description">Premium noise-cancelling wireless headphones</p>
+                            <p class="product-price">₹12,999</p>
+                            <button class="add-to-cart-btn" data-product-id="3" data-product-name="Sony Wireless Headphones" data-product-price="12999">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-product-id="4">
+                        <div class="product-image">
+                            <img src="placeholder.svg" alt="iPad Air Tablet" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">iPad Air Tablet</h3>
+                            <p class="product-description">10.9-inch iPad Air with A14 Bionic chip</p>
+                            <p class="product-price">₹54,999</p>
+                            <button class="add-to-cart-btn" data-product-id="4" data-product-name="iPad Air Tablet" data-product-price="54999">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-product-id="5">
+                        <div class="product-image">
+                            <img src="placeholder.svg" alt="Apple Watch Series" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Apple Watch Series</h3>
+                            <p class="product-description">Advanced fitness tracking and health monitoring</p>
+                            <p class="product-price">₹39,999</p>
+                            <button class="add-to-cart-btn" data-product-id="5" data-product-name="Apple Watch Series" data-product-price="39999">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="product-card" data-product-id="6">
+                        <div class="product-image">
+                            <img src="placeholder.svg" alt="Canon DSLR Camera" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Canon DSLR Camera</h3>
+                            <p class="product-description">Professional DSLR camera with 24MP sensor</p>
+                            <p class="product-price">₹67,999</p>
+                            <button class="add-to-cart-btn" data-product-id="6" data-product-name="Canon DSLR Camera" data-product-price="67999">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kiro. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
