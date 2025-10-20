@@ -69,7 +69,7 @@
   - _Requirements: 5.4, 5.5, 5.6_
 
 - [-] 6. Create comprehensive test suite
-- [-] 6.1 Write server unit tests for Express application
+- [x] 6.1 Write server unit tests for Express application
   - Create test/app.test.js with supertest for route testing
   - Test static file serving, root route handler, and error scenarios
   - Implement server startup and port configuration tests
