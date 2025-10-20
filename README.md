@@ -9,8 +9,8 @@ A Node.js e-commerce demonstration application with automated CI/CD pipeline int
 
 ## 🚀 Live Demo
 
-- **Application**: [Live Demo URL] *(Replace with actual deployment URL)*
-- **DockerHub Repository**: [DockerHub Repository Link] *(Replace with actual DockerHub URL)*
+- **Application**: [Live Demo URL](https://github.com/venkateshkallu/nodejs-demo-app)
+- **DockerHub Repository**: [DockerHub Repository Link](https://hub.docker.com/r/venkateshkalluu/nodejs-demo-app)
 
 ## 📋 Table of Contents
 
@@ -185,10 +185,8 @@ DOCKERHUB_TOKEN - Your DockerHub access token
 ```
 
 ### Pipeline Status
-
-![Pipeline Status](https://github.com/[USERNAME]/[REPOSITORY]/workflows/CI%2FCD%20Pipeline/badge.svg)
-
-*Replace [USERNAME] and [REPOSITORY] with actual values*
+![alt text](<Screenshot from 2025-10-20 21-53-06.png>)
+![Pipeline Status](https://github.com/venkateshkallu/nodejs-demo-app/actions/runs/18657944262/job/53192537563)
 
 ## 🧪 Testing
 
@@ -346,20 +344,10 @@ We welcome contributions! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Support
-
-For questions, issues, or contributions:
-
-- **Issues**: [GitHub Issues](https://github.com/[USERNAME]/[REPOSITORY]/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/[USERNAME]/[REPOSITORY]/discussions)
-- **Email**: [support@kiro.com] *(Replace with actual contact)*
-
 ## 🙏 Acknowledgments
 
-- Built with ❤️ by the Kiro Team
+
 - Inspired by modern e-commerce platforms
 - Powered by open-source technologies
 
 ---
-
-**Made with ❤️ by Kiro Team** | **© 2024 Kiro. All rights reserved.**
