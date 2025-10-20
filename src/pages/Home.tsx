@@ -2,18 +2,17 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import { ArrowRight } from "lucide-react";
-
 interface HomeProps {
   onAddToCart: (productId: string) => void;
 }
-
-const Home = ({ onAddToCart }: HomeProps) => {
-  return (
-    <div className="min-h-screen">
+const Home = ({
+  onAddToCart
+}: HomeProps) => {
+  return <div className="min-h-screen">
       <section className="gradient-hero py-20 px-4">
         <div className="container mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
-            Welcome to Mini<span className="text-primary">Amazon</span>
+            Welcome to Mini<span className="text-primary"></span>
           </h1>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto animate-fade-in">
             Discover amazing products at unbeatable prices. Shop electronics, fashion, home goods, and more!
@@ -69,8 +68,6 @@ const Home = ({ onAddToCart }: HomeProps) => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Home;
