@@ -7,7 +7,7 @@ A Node.js e-commerce demonstration application with automated CI/CD pipeline int
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## 🚀 Live Demo
+## Live Demo
 
 - **Application**: [Live Demo URL](https://github.com/venkateshkallu/nodejs-demo-app)
 - **DockerHub Repository**: [DockerHub Repository Link](https://hub.docker.com/r/venkateshkalluu/nodejs-demo-app)
